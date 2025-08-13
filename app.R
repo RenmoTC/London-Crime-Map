@@ -15,6 +15,7 @@ library(raster)
 library(isoband)          
 library(sf)
 library(scales)
+library(openintro)
 
 
 ## Data Loading and Preprocessing 
@@ -919,3 +920,4 @@ category_map <- function(x) {
 }
 
 shinyApp(ui = ui, server = server)
+
